@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECD3B53D1B03BC1100C3B490 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD3B53C1B03BC1100C3B490 /* AppDelegate.swift */; };
+		ECD3B53F1B03BC1100C3B490 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ECD3B53E1B03BC1100C3B490 /* GameScene.sks */; };
+		ECD3B5411B03BC1100C3B490 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD3B5401B03BC1100C3B490 /* GameScene.swift */; };
+		ECD3B5431B03BC1100C3B490 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD3B5421B03BC1100C3B490 /* GameViewController.swift */; };
+		ECD3B5461B03BC1100C3B490 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD3B5441B03BC1100C3B490 /* Main.storyboard */; };
+		ECD3B5481B03BC1100C3B490 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD3B5471B03BC1100C3B490 /* Images.xcassets */; };
+		ECD3B54B1B03BC1100C3B490 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECD3B5491B03BC1100C3B490 /* LaunchScreen.xib */; };
+		ECD3B5571B03BC1100C3B490 /* CocoaHeadsTrondheimSKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD3B5561B03BC1100C3B490 /* CocoaHeadsTrondheimSKTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECD3B5511B03BC1100C3B490 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECD3B52F1B03BC1100C3B490 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECD3B5361B03BC1100C3B490;
+			remoteInfo = CocoaHeadsTrondheimSK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECD3B5371B03BC1100C3B490 /* CocoaHeadsTrondheimSK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaHeadsTrondheimSK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD3B53B1B03BC1100C3B490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD3B53C1B03BC1100C3B490 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECD3B53E1B03BC1100C3B490 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		ECD3B5401B03BC1100C3B490 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		ECD3B5421B03BC1100C3B490 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		ECD3B5451B03BC1100C3B490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECD3B5471B03BC1100C3B490 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECD3B54A1B03BC1100C3B490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ECD3B5501B03BC1100C3B490 /* CocoaHeadsTrondheimSKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaHeadsTrondheimSKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD3B5551B03BC1100C3B490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD3B5561B03BC1100C3B490 /* CocoaHeadsTrondheimSKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaHeadsTrondheimSKTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECD3B5341B03BC1100C3B490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD3B54D1B03BC1100C3B490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECD3B52E1B03BC1100C3B490 = {
+			isa = PBXGroup;
+			children = (
+				ECD3B5391B03BC1100C3B490 /* CocoaHeadsTrondheimSK */,
+				ECD3B5531B03BC1100C3B490 /* CocoaHeadsTrondheimSKTests */,
+				ECD3B5381B03BC1100C3B490 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECD3B5381B03BC1100C3B490 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECD3B5371B03BC1100C3B490 /* CocoaHeadsTrondheimSK.app */,
+				ECD3B5501B03BC1100C3B490 /* CocoaHeadsTrondheimSKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECD3B5391B03BC1100C3B490 /* CocoaHeadsTrondheimSK */ = {
+			isa = PBXGroup;
+			children = (
+				ECD3B53C1B03BC1100C3B490 /* AppDelegate.swift */,
+				ECD3B53E1B03BC1100C3B490 /* GameScene.sks */,
+				ECD3B5401B03BC1100C3B490 /* GameScene.swift */,
+				ECD3B5421B03BC1100C3B490 /* GameViewController.swift */,
+				ECD3B5441B03BC1100C3B490 /* Main.storyboard */,
+				ECD3B5471B03BC1100C3B490 /* Images.xcassets */,
+				ECD3B5491B03BC1100C3B490 /* LaunchScreen.xib */,
+				ECD3B53A1B03BC1100C3B490 /* Supporting Files */,
+			);
+			path = CocoaHeadsTrondheimSK;
+			sourceTree = "<group>";
+		};
+		ECD3B53A1B03BC1100C3B490 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECD3B53B1B03BC1100C3B490 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECD3B5531B03BC1100C3B490 /* CocoaHeadsTrondheimSKTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECD3B5561B03BC1100C3B490 /* CocoaHeadsTrondheimSKTests.swift */,
+				ECD3B5541B03BC1100C3B490 /* Supporting Files */,
+			);
+			path = CocoaHeadsTrondheimSKTests;
+			sourceTree = "<group>";
+		};
+		ECD3B5541B03BC1100C3B490 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECD3B5551B03BC1100C3B490 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECD3B5361B03BC1100C3B490 /* CocoaHeadsTrondheimSK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD3B55A1B03BC1100C3B490 /* Build configuration list for PBXNativeTarget "CocoaHeadsTrondheimSK" */;
+			buildPhases = (
+				ECD3B5331B03BC1100C3B490 /* Sources */,
+				ECD3B5341B03BC1100C3B490 /* Frameworks */,
+				ECD3B5351B03BC1100C3B490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaHeadsTrondheimSK;
+			productName = CocoaHeadsTrondheimSK;
+			productReference = ECD3B5371B03BC1100C3B490 /* CocoaHeadsTrondheimSK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECD3B54F1B03BC1100C3B490 /* CocoaHeadsTrondheimSKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD3B55D1B03BC1100C3B490 /* Build configuration list for PBXNativeTarget "CocoaHeadsTrondheimSKTests" */;
+			buildPhases = (
+				ECD3B54C1B03BC1100C3B490 /* Sources */,
+				ECD3B54D1B03BC1100C3B490 /* Frameworks */,
+				ECD3B54E1B03BC1100C3B490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECD3B5521B03BC1100C3B490 /* PBXTargetDependency */,
+			);
+			name = CocoaHeadsTrondheimSKTests;
+			productName = CocoaHeadsTrondheimSKTests;
+			productReference = ECD3B5501B03BC1100C3B490 /* CocoaHeadsTrondheimSKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECD3B52F1B03BC1100C3B490 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Martin Hagerup";
+				TargetAttributes = {
+					ECD3B5361B03BC1100C3B490 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					ECD3B54F1B03BC1100C3B490 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = ECD3B5361B03BC1100C3B490;
+					};
+				};
+			};
+			buildConfigurationList = ECD3B5321B03BC1100C3B490 /* Build configuration list for PBXProject "CocoaHeadsTrondheimSK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECD3B52E1B03BC1100C3B490;
+			productRefGroup = ECD3B5381B03BC1100C3B490 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECD3B5361B03BC1100C3B490 /* CocoaHeadsTrondheimSK */,
+				ECD3B54F1B03BC1100C3B490 /* CocoaHeadsTrondheimSKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECD3B5351B03BC1100C3B490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD3B54B1B03BC1100C3B490 /* LaunchScreen.xib in Resources */,
+				ECD3B5481B03BC1100C3B490 /* Images.xcassets in Resources */,
+				ECD3B53F1B03BC1100C3B490 /* GameScene.sks in Resources */,
+				ECD3B5461B03BC1100C3B490 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD3B54E1B03BC1100C3B490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECD3B5331B03BC1100C3B490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD3B5411B03BC1100C3B490 /* GameScene.swift in Sources */,
+				ECD3B5431B03BC1100C3B490 /* GameViewController.swift in Sources */,
+				ECD3B53D1B03BC1100C3B490 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD3B54C1B03BC1100C3B490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD3B5571B03BC1100C3B490 /* CocoaHeadsTrondheimSKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECD3B5521B03BC1100C3B490 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECD3B5361B03BC1100C3B490 /* CocoaHeadsTrondheimSK */;
+			targetProxy = ECD3B5511B03BC1100C3B490 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECD3B5441B03BC1100C3B490 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECD3B5451B03BC1100C3B490 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECD3B5491B03BC1100C3B490 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECD3B54A1B03BC1100C3B490 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECD3B5581B03BC1100C3B490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECD3B5591B03BC1100C3B490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECD3B55B1B03BC1100C3B490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CocoaHeadsTrondheimSK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECD3B55C1B03BC1100C3B490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CocoaHeadsTrondheimSK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECD3B55E1B03BC1100C3B490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CocoaHeadsTrondheimSKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoaHeadsTrondheimSK.app/CocoaHeadsTrondheimSK";
+			};
+			name = Debug;
+		};
+		ECD3B55F1B03BC1100C3B490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CocoaHeadsTrondheimSKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoaHeadsTrondheimSK.app/CocoaHeadsTrondheimSK";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECD3B5321B03BC1100C3B490 /* Build configuration list for PBXProject "CocoaHeadsTrondheimSK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD3B5581B03BC1100C3B490 /* Debug */,
+				ECD3B5591B03BC1100C3B490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECD3B55A1B03BC1100C3B490 /* Build configuration list for PBXNativeTarget "CocoaHeadsTrondheimSK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD3B55B1B03BC1100C3B490 /* Debug */,
+				ECD3B55C1B03BC1100C3B490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECD3B55D1B03BC1100C3B490 /* Build configuration list for PBXNativeTarget "CocoaHeadsTrondheimSKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD3B55E1B03BC1100C3B490 /* Debug */,
+				ECD3B55F1B03BC1100C3B490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECD3B52F1B03BC1100C3B490 /* Project object */;
+}
